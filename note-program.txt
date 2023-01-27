@@ -1,0 +1,126 @@
+   // while (numberChance <= 10) {
+            // System.out.print(numberChance + " > Your Answer: ");
+
+            // answer = input.nextLine();
+            // while (answer.length() < 3 || answer.length() > 6) {
+
+            // System.out.print(numberChance + " > Your Answer: ");
+            // answer = input.nextLine();
+            // }
+
+            // if (Arrays.stream(wordLevel1).anyMatch(answer::contains)) {
+            // if (tempAnswers.contains(answer)) {
+            // System.out.println("You had already type this word before!");
+            // continue;
+            // }
+            // totalScoreLevel1 += 10;
+            // tempAnswers.add(answer);
+            // rightAnswer += 1;
+            // System.out.println("#Right. Score: " + totalScoreLevel1);
+            // numberChance++;
+            // } else {
+            // System.out.println("#Wrong. Score : " + totalScoreLevel1);
+            // numberChance++;
+            // }
+
+            // }
+            // if (totalScoreLevel1 >= 70 || totalScoreLevel1 <= 70) {
+            // System.out.println("You had answered 10 times with " + rightAnswer + " right
+            // answer ...");
+            // System.out.println("Correct Answer : ");
+            // System.out.println();
+
+            // }
+
+            // if (totalScoreLevel1 >= 70) {
+            // statusLevel1 = true;
+            // }
+
+            // while (totalScoreLevel1 >= 70 && numberChance2 <= 10) {
+            // // showRules();
+            // System.out.println("Level 2");
+            // System.out.println("-------");
+            // System.out.println("Rules : ");
+
+            // System.out.println("\ts\te\tc\ta\te\tn\t");
+            // while (numberChance2 <= 10) {
+            // System.out.print(numberChance2 + " > Your Answer: ");
+            // answer = input.nextLine();
+            // while (answer.length() < 3 || answer.length() > 6) {
+            // System.out.print(numberChance2 + " > Your Answer: ");
+            // answer = input.nextLine();
+            // }
+
+            // // answer = input.nextLine();
+            // if (Arrays.stream(wordLevel2).anyMatch(answer::contains)) {
+            // if (tempAnswers.contains(answer)) {
+            // System.out.println("You had already type this word before!");
+            // continue;
+            // }
+            // totalScoreLevel2 += 10;
+            // tempAnswers.add(answer);
+            // rightAnswer2 += 1;
+            // System.out.println("#Right. Score: " + totalScoreLevel2);
+            // numberChance2++;
+            // } else {
+            // System.out.println("#Wrong. Score : " + totalScoreLevel2);
+            // numberChance2++;
+            // }
+            // }
+
+            // }
+
+            // if (totalScoreLevel2 >= 70 && totalScoreLevel1 >= 70) {
+            // System.out.println("You had answered 10 times with " + rightAnswer2 + " right
+            // answer ...");
+            // System.out.println("Correct Answer : ");
+            // System.out.println();
+            // }
+            // if (totalScoreLevel2 >= 70) {
+            // statusLevel2 = true;
+            // }
+
+            // while (totalScoreLevel2 >= 70 && numberChance3 <= 10) {
+            // // showRules();
+            // System.out.println("Level 3");
+            // System.out.println("-------");
+            // System.out.println("Rules : ");
+
+            // System.out.println("\th\tk\tr\tn\te\to\t");
+            // while (numberChance3 <= 10) {
+            // System.out.print(numberChance3 + " > Your Answer: ");
+
+            // answer = input.nextLine();
+            // System.out.print(numberChance3 + " > Your Answer: ");
+            // while (answer.length() < 3 || answer.length() > 6) {
+            // answer = input.nextLine();
+            // }
+
+            // // answer = input.nextLine();
+            // if (Arrays.stream(wordLevel3).anyMatch(answer::contains)) {
+            // if (tempAnswers.contains(answer)) {
+            // System.out.println("You had already type this word before!");
+            // continue;
+            // }
+            // totalScoreLevel3 += 10;
+            // tempAnswers.add(answer);
+            // rightAnswer3 += 1;
+            // System.out.println("#Right. Score: " + totalScoreLevel3);
+            // numberChance3++;
+            // } else {
+            // System.out.println("#Wrong. Score : " + totalScoreLevel3);
+            // numberChance3++;
+            // }
+            // }
+            // }
+
+            // if (totalScoreLevel3 >= 70 && totalScoreLevel2 >= 70) {
+            // System.out.println("You had answered 10 times with " + rightAnswer3 + " right
+            // answer ...");
+            // System.out.println("Correct Answer : ");
+            // System.out.println();
+            // }
+
+            // if (totalScoreLevel3 >= 70) {
+            // statusLevel3 = true;
+            // }
