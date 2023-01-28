@@ -95,12 +95,13 @@ public class App {
         System.out.println("Rules : ");
 
         System.out.println("\td\te\tt\tt\tl\ti");
+
         while (numberChance <= 10) {
             System.out.print(numberChance + " > Your Answer: ");
 
             answer = input.nextLine();
             while (answer.length() < 3 || answer.length() > 6) {
-
+                System.out.println("Please, refer min 3 characters & max 6 characters");
                 System.out.print(numberChance + " > Your Answer: ");
                 answer = input.nextLine();
             }
@@ -124,7 +125,10 @@ public class App {
         if (totalScoreLevel1 >= 70 || totalScoreLevel1 <= 70) {
             System.out.println("You had answered 10 times with " + rightAnswer + " right answer ...");
             System.out.println("Correct Answer : ");
-            System.out.println();
+            for (int i = 0; i < arrData.length; i++) {
+                System.out.print(arrData[i] + " ");
+            }
+            System.out.println("\n");
 
         }
 
@@ -146,6 +150,7 @@ public class App {
                 System.out.print(numberChance2 + " > Your Answer: ");
                 answer = input.nextLine();
                 while (answer.length() < 3 || answer.length() > 6) {
+                    System.out.println("Please, refer min 3 characters & max 6 characters");
                     System.out.print(numberChance2 + " > Your Answer: ");
                     answer = input.nextLine();
                 }
@@ -172,7 +177,10 @@ public class App {
         if (totalScoreLevel2 >= 70 && totalScoreLevel1 >= 70) {
             System.out.println("You had answered 10 times with " + rightAnswer2 + " right answer ...");
             System.out.println("Correct Answer : ");
-            System.out.println();
+            for (int i = 0; i < arrData.length; i++) {
+                System.out.print(arrData[i] + " ");
+            }
+            System.out.println("\n");
         }
         if (totalScoreLevel2 >= 70) {
             statusLevel2 = true;
@@ -182,7 +190,7 @@ public class App {
 
     public static void level3(String[] arrData) {
         while (totalScoreLevel2 >= 70 && numberChance3 <= 10) {
-            // showRules();
+
             System.out.println("Level 3");
             System.out.println("-------");
             System.out.println("Rules : ");
@@ -192,8 +200,10 @@ public class App {
                 System.out.print(numberChance3 + " > Your Answer: ");
 
                 answer = input.nextLine();
-                System.out.print(numberChance3 + " > Your Answer: ");
+
                 while (answer.length() < 3 || answer.length() > 6) {
+                    System.out.println("Please, refer min 3 characters & max 6 characters");
+                    System.out.print(numberChance3 + " > Your Answer: ");
                     answer = input.nextLine();
                 }
 
@@ -218,13 +228,15 @@ public class App {
         if (totalScoreLevel3 >= 70 && totalScoreLevel2 >= 70) {
             System.out.println("You had answered 10 times with " + rightAnswer3 + " right   answer ...");
             System.out.println("Correct Answer : ");
-            System.out.println();
+            for (int i = 0; i < arrData.length; i++) {
+                System.out.print(arrData[i] + " ");
+            }
+            System.out.println("\n");
+
         }
 
         if (totalScoreLevel3 >= 70) {
             statusLevel3 = true;
         }
-
     }
-
 }
